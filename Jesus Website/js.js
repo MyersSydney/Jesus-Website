@@ -33,7 +33,7 @@ function slidenext() {
 }
 
 function slideprev() {
-  document.images.slide.src = "image"+step+".src";
+  document.images.slide.src = eval("image"+step+".src");
       if (step <= 3 && step > 3){ 
          step--;
         }
@@ -41,6 +41,32 @@ function slideprev() {
              step = 3;
         }
     }
+    
+//trying something different here
+
+var slIndex = [1,1];
+var slId = ["1","2"];
+showSlides(1,0);
+showSlides(1,1);
+
+function addSlides(n, no){
+	showSlides(slidesIndex[no] +=n,no);
+}		
+function showSlides(n, no){
+	var numOfSlide = document.getElementsbyClassName(slId[no]);
+	
+	if(n > numOfSlide.length){
+		slIndex[no] = 1;
+	}
+	if(n < 1){
+	slidex[no] = numOfSlide.length;
+	}
+	for(var i = 0; i < numOfSlide.length; i++){
+		numOfSlide[i].style.display = "none";
+	}
+	x[slideIndex]
+}	
+	
 
 
 
