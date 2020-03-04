@@ -10,13 +10,12 @@ function currentSlide(n) {
 }
 
 function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  if (n > slides.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";  
+  var poses = document.getElementsByClassName("poses");
+  if (n > poses.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = poses.length}
+  for (var i = 0; i < poses.length; i++) {
+      poses[i].style.display = "none";  
   }
  
-  slides[slideIndex-1].style.display = "block";  
+  poses[slideIndex-1].style.display = "block";  
 }
