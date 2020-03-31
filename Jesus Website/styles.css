@@ -48,14 +48,14 @@
 .eyes{
 }
 .mouth{
-	fill:#F47853;
+	fill:red;
 }
 
 
 .purpleButton {
   background-color: purple;
   border: black 3px solid;
-  padding: 15px 25px;
+  padding: 10px 15px;
   cursor: pointer;
 }
 .purpleButton:hover {
@@ -64,7 +64,7 @@
 .blueButton {
   background-color: blue;
   border: black 3px solid;
-  padding: 15px 25px;
+  padding: 10px 15px;
   cursor: pointer;
 }
 .blueButton:hover {
@@ -73,7 +73,7 @@
 .greenButton {
   background-color: green;
   border: black 3px solid;
-  padding: 15px 25px;
+   padding: 10px 15px;
   cursor: pointer;
 }
 .greenButton:hover {
@@ -82,7 +82,7 @@
 .yellowButton {
   background-color: yellow;
   border: black 3px solid;
-  padding: 15px 25px;
+  padding: 10px 15px;
   cursor: pointer;
 }
 .yellowButton:hover {
@@ -91,7 +91,7 @@
 .orangeButton {
   background-color: orange;
   border: black 3px solid;
-  padding: 15px 25px;
+  padding: 10px 15px;
   cursor: pointer;
 }
 .orangeButton:hover {
@@ -100,10 +100,37 @@
 .redButton {
   background-color: red;
   border: black 3px solid;
-  padding: 15px 25px;
+  padding: 10px 15px;
   cursor: pointer;
 }
 .redButton:hover {
   background-color: darkred;
+}
+.whiteButton {
+  background-color: white;
+  border: black 3px solid;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+.whiteButton:hover {
+  background-color: gray;
+}
+.blackButton {
+  background-color: black;
+  border: black 3px solid;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+.blackButton:hover {
+  background-color: gray;
+}
+.brownButton {
+  background-color: brown;
+  border: black 3px solid;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+.brownButton:hover {
+  background-color: black;
 }
 	
