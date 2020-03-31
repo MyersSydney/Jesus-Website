@@ -1,26 +1,109 @@
-body {font-family: Verdana, sans-serif; margin:0}
-img {vertical-align: middle;}
 
-.poseSwap {
-  max-width: 500px;
-  position: relative;
-  margin: auto;
+.wrapper > div{
+	background: #eee;
+	padding: 1em; 
+}	
+.wrapper > div:nth-child(odd){
+	background: #ddd;
+}	
+.wrapper{
+	display: grid;
+	grid-template-columns: 70% 30%;
+	grid-gap: 1em;
+ }
+
+.nested{
+	display: grid;
+	grid-auto-rows: 100px;
+	grid-gap: 1em;
+}
+.nested > div{
+	text-align: center;
+	border: black 1px solid;
+}
+.title{
+	display: grid;
+	grid-column: 1/3;
+	text-align: center;
 }
 
-.left, .right {
-  position: absolute;
-  top: 50%;
-  width: auto;
-  padding: 10px;
-  color: white;
-  font-weight: bold;
-  font-size: 50px;
+.jesustitle{
+	text-align:center;
+}
+.jesus{
+	width:50%;
+	margin-left: auto;
+  	margin-right: auto;
+}
+.arrows{
+	color: red;
 }
 
-.right {
-  right: 0;
+
+
+.skin{
+}
+.hair{
+}
+.eyes{
+}
+.mouth{
+	fill:#F47853;
 }
 
-.right:hover, .left:hover {
-  background-color: rgba(0,0,0,0.5);
+
+.purpleButton {
+  background-color: purple;
+  border: black 3px solid;
+  padding: 15px 25px;
+  cursor: pointer;
 }
+.purpleButton:hover {
+  background-color: pink;
+}
+.blueButton {
+  background-color: blue;
+  border: black 3px solid;
+  padding: 15px 25px;
+  cursor: pointer;
+}
+.blueButton:hover {
+  background-color: darkblue;
+}
+.greenButton {
+  background-color: green;
+  border: black 3px solid;
+  padding: 15px 25px;
+  cursor: pointer;
+}
+.greenButton:hover {
+  background-color: darkgreen;
+}
+.yellowButton {
+  background-color: yellow;
+  border: black 3px solid;
+  padding: 15px 25px;
+  cursor: pointer;
+}
+.yellowButton:hover {
+  background-color: gold;
+}
+.orangeButton {
+  background-color: orange;
+  border: black 3px solid;
+  padding: 15px 25px;
+  cursor: pointer;
+}
+.orangeButton:hover {
+  background-color: darkorange;
+}
+.redButton {
+  background-color: red;
+  border: black 3px solid;
+  padding: 15px 25px;
+  cursor: pointer;
+}
+.redButton:hover {
+  background-color: darkred;
+}
+	
