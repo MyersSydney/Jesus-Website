@@ -1,6 +1,11 @@
 function defaultColors(){
 	document.getElementById('skin').style.fill='yellow';
-}
+	document.getElementById('hair2').style.fill = '4E311D';
+	document.getElementById('skin2').style.fill='E7B493';
+	document.getElementById('base2').style.fill='E7B493';
+	document.getElementById('shirt22').style.fill='DF5E53';
+	document.getElementById('eyes2').style.fill = '3C2E29';
+	}
 function pose1(){
 	document.getElementById('skin').style.opacity=100;
 	document.getElementById('hair').style.opacity=100;
