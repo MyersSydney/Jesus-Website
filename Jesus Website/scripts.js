@@ -1,10 +1,14 @@
 function defaultColors(){
-	document.getElementById('hair').style.fill = '4E311D';
-	document.getElementById('skin').style.fill='E7B493';
-	document.getElementById('base').style.fill='E7B493';
-	document.getElementById('shirt2').style.fill='DF5E53';
-	document.getElementById('shirt').style.fill = 'white';
-	document.getElementById('eyes').style.fill = '3C2E29';
+	hair = document.getElementsByClassName('hair');
+	for(let i = 0; i < array.length; i++){
+		hair[i].style.fill = blue;
+	}
+	document.getElementsByClassName('hair').style.fill = '4E311D';
+	document.getElementsByClassName('skin').style.fill='E7B493';
+	document.getElementsByClassName('base').style.fill='E7B493';
+	document.getElementsByClassName('shirt2').style.fill='DF5E53';
+	document.getElementsByClassName('shirt').style.fill = 'white';
+	document.getElementsByClassName('eyes').style.fill = '3C2E29';
 	}
 
 var jesuses= ['jesus1', 'jesus2', 'jesus3'];
@@ -36,7 +40,11 @@ var scale = Math.min(
   availableHeight / contentHeight 
 );
 
-
-
+function fill (classname, color){
+	array = document.getElementsByClassName(classname);
+	for(let i = 0; i < array.length; i++){
+		array[i].style.fill = color;
+	}
+}
 
 

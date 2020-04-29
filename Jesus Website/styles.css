@@ -5,6 +5,10 @@
 .wrapper > div:nth-child(3){
 	background: #F48580;
 }
+.wrapper > div:nth-child(2){
+	background: black;
+}
+
 .wrapper > div:nth-child(1){
 	font-family:arial;
 	font-size: 30;
@@ -37,26 +41,13 @@
 .nested > div:nth-child(even){
 	background: #FFF1BE
 }
-.title{
-}
 
-.skin{
- 
+.jesus{
+	background:black;
 }
-.hair{
+body{
+	background:black;
 }
-.eyes{
-}
-.clothing{
-}
-.mouth{
-	fill:red;
-}
-.tie{
-	fill:red;
-}
-
-
 .purpleButton {
   transform: scale();
     border: none;
@@ -184,8 +175,9 @@ img {vertical-align: middle;}
 
 svg{
 	position: absolute;
-	width:50%;
-	right: 45%
+	width:15%;
+	top: 25%;
+	right: 60%
   	}
   	
   	
