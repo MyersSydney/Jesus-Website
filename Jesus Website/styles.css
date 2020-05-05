@@ -1,21 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Muli:wght@900&display=swap');
+
 .wrapper > div{
 	background: white;
-	padding: .5em; 
+	padding: 1em; 
 }	
 .wrapper > div:nth-child(3){
-	background: #F48580;
+	background: #2b2b3a;
 }
 .wrapper > div:nth-child(2){
-	background: black;
+	background: #eafc40;
 }
 
 .wrapper > div:nth-child(1){
-	font-family:arial;
+	font-family: 'Muli', sans-serif;
 	font-size: 30;
 	text-align: left;
-	background: #A6D7C1;
+	background: #1ed2f4;
 	padding: 2em;
-	border: 5px solid #94D2BA;
 }	
 .wrapper{
 	display: grid;
@@ -29,24 +30,24 @@
 	grid-column: 2/3;
 }
 .nested > div{
-	font-family:arial;
-	font-size: 20;
+	font-family: 'Muli', sans-serif;
+	font-size: 17;
 	text-align: center;
-    border: 5px solid #FFD478;
+    border: 5px solid #254558;
  	border-radius: 5px;
 }
 .nested > div:nth-child(odd){
-	background: #FFF1BE;
+	background: #f4f5f6;
 }
 .nested > div:nth-child(even){
-	background: #FFF1BE
+	background: #f4f5f6
 }
 
 .jesus{
-	background:black;
+	background:#f4f5f6;
 }
 body{
-	background:black;
+	background:#f4f5f6;
 }
 .purpleButton {
   transform: scale();
@@ -115,6 +116,7 @@ body{
     border: white 2px solid;
 }
 .whiteButton {
+font-family: 'Muli', sans-serif;
   transform: scale();
     border: none;
   width:9%;
@@ -141,7 +143,7 @@ body{
     border: none;
   width:9%;
   height: 35%;
-  background-color: #E7B493;
+  background-color: brown;
   cursor: pointer;
 }
 .brownButton:hover {
