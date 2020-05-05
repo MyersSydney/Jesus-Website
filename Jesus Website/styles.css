@@ -182,6 +182,16 @@ svg{
 	right: 60%
   	}
   	
-  	
-
+.printbutton{
+font-family: 'Muli', sans-serif;
+  transform: scale();
+    border: none;
+  width:15%;
+  height: 35%;
+  background-color: white;
+  cursor: pointer;
+}
+.printbutton:hover {
+     border: white 2px solid;
+}
 	
